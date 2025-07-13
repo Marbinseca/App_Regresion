@@ -4,7 +4,7 @@ Este repositorio contiene una aplicación web interactiva construida para democr
 
 ---
 ## 📊 Demo en Vivo
-Demo: [https://app-regresion-lineal.herokuapp.com/](https://app-regresion-lineal.herokuapp.com/)
+Demo: [https://app-regresion.onrender.com](https://app-regresion.onrender.com)
 
 ---
 
