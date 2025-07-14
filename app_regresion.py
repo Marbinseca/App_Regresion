@@ -11,9 +11,6 @@ import statsmodels.api as sm
 # Inicializa la aplicación Dash con un tema de Bootstrap
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP], suppress_callback_exceptions=True)
 
-# Exponer el servidor Flask para el despliegue en producción (ej. Gunicorn en Render)
-server = app.server
-
 # --- Layout de la Aplicación ---
 app.layout = dbc.Container([
     dcc.Store(id='stored-dataframe-json'),
@@ -345,4 +342,4 @@ def download_data(n_clicks, df_json):
 
 # Ejecutar la aplicación
 if __name__ == '__main__':
-    app.run(debug=False)
+    app.run(debug=True)
