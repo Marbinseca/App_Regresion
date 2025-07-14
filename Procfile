@@ -1,0 +1,1 @@
+web: gunicorn app_regresion:server
